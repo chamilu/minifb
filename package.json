@@ -1,0 +1,11 @@
+{
+  "name": "minifb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chamilu/minifb.git",
+  "author": "Chamil Udayanga <chamiludayanga28@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.8.3"
+  }
+}
