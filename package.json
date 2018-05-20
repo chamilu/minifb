@@ -5,7 +5,13 @@
   "repository": "https://github.com/chamilu/minifb.git",
   "author": "Chamil Udayanga <chamiludayanga28@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --port 3000 --content-base ./public --output-filename ./dist/bundle.js --hot"
+  },
   "devDependencies": {
-    "webpack": "^4.8.3"
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
   }
 }
