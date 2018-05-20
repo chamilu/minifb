@@ -1,3 +1,6 @@
+#custom ignores
+public/dist/*
+
 # Logs
 logs
 *.log
