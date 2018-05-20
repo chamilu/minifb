@@ -8,6 +8,18 @@ module.exports = {
   entry: resolve(sourceDir, 'index.js'),
   output: {
     path: resolve(publicDir, './dist'),
-    filename: 'bundle.js'
-  }
+    filename: 'bundle.js',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.jsx?$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
 };
