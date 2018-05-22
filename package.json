@@ -1,34 +1,34 @@
 {
-  "name": "minifb",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/chamilu/minifb.git",
-  "author": "Chamil Udayanga <chamiludayanga28@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server --port 3000 --content-base ./public --output-filename ./dist/bundle.js --hot"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-1": "^6.24.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.8.2",
-    "react-router-dom": "^4.2.2",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.3",
-    "webpack-dev-server": "^3.1.4"
-  },
-  "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2"
-  }
+    "name": "minifb",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/chamilu/minifb.git",
+    "author": "Chamil Udayanga <chamiludayanga28@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack",
+        "dev": "webpack-dev-server --output-filename ./dist/bundle.js --hot"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-1": "^6.24.1",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-import": "^2.12.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.8.2",
+        "react-router-dom": "^4.2.2",
+        "webpack": "^4.8.3",
+        "webpack-cli": "^2.1.3",
+        "webpack-dev-server": "^3.1.4"
+    },
+    "dependencies": {
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2"
+    }
 }
