@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Login extends Component {
     state = {
@@ -49,6 +50,10 @@ export default class Login extends Component {
                         value="Login"
                         onClick={this.handleLoginClick}
                     />
+                </div>
+
+                <div style={{ marginTop: 50 }} className="navlink-btn">
+                    <Link to="/register">Register</Link>
                 </div>
             </div>
         );

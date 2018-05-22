@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import Login from './components/loginComponent';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Login from './components/Login';
+import Register from './components/Register';
 
 const styles = {
     outer: {
@@ -15,11 +18,16 @@ export default class App extends Component {
                 <p style={{ fontSize: 25 }}>mini-fb</p>
 
                 <div style={{ marginTop: 50 }}>
-                    <Login />
-
-                    <div style={{ marginTop: 50 }}>
-                        <input type="button" value="Register" />
-                    </div>
+                    <Router>
+                        <div>
+                            <Route exact path="/" component={Login} />
+                            <Route
+                                exact
+                                path="/register"
+                                component={Register}
+                            />
+                        </div>
+                    </Router>
                 </div>
             </div>
         );
