@@ -15,7 +15,7 @@ export default class App extends Component {
     render() {
         return (
             <div style={styles.outer}>
-                <p style={{ fontSize: 25 }}>mini-fb</p>
+                <p className="logo-text">mini-fb</p>
 
                 <div style={{ marginTop: 50 }}>
                     <Router>

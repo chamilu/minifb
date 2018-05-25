@@ -4,6 +4,12 @@ body {
     color: #cdcdcd;
 }
 
+.logo-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #898989;
+}
+
 input[type='text'],
 input[type='password'] {
     color: #888888;
@@ -11,7 +17,7 @@ input[type='password'] {
     padding: 5px;
     width: 200px;
     outline: none;
-    border: 1px solid #d7d7d7;
+    border: 1px solid #c5c5c5;
     caret-color: #999999;
 }
 
