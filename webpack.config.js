@@ -1,6 +1,6 @@
 const { resolve } = require('path');
 
-const sourceDir = resolve(__dirname, './src');
+const sourceDir = resolve(__dirname, './src/app');
 const publicDir = resolve(__dirname, './public');
 
 module.exports = {
